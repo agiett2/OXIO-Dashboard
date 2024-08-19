@@ -33,7 +33,7 @@ Shared Module: Consist of the building components needed to build functionality 
 
 ## Implementation Notes
 User's List is pulling users from https://jsonplaceholder.typicode.com/users API.
-The list of users is modified to include mocked utility usages of Gas, Electricity and Energy for the last 6 months for each user in the list.
+The list of users is modified to include mocked utility usages of Gas, Electricity and Energy for the months of January to June for each user in the list.
 When a new user is added, mocked utility usage is added to the user object.
 Can view the users usage data by clicking on the name or username of the user from the User's List table. 
 
