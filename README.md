@@ -50,4 +50,8 @@ Responsive and Mobile-Friendly Design: PrimeNG charts are designed to be respons
 
 ## Scope Cuts
 The Add New User form is missing indicators of required fields and messages that inform the user of an invalid or missed required field. All fields are required in order to submit the form and the submit button is disabled until all fields have value. 
-Zipcode field accepts string when it should only be numbers, I didn't have time to change the input type to number instead of text
+Zipcode field accepts string when it should only be numbers, I didn't have time to change the input type to number instead of text.
+
+Unsubscribing from data stream subscriptions to prevent data leaks
+
+The logic on maintaining new users needs some modifications. After viewing their data in the analysis view and return returning to the User's there is an issue with viewing the same user's data analysis. 
