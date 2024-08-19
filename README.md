@@ -47,3 +47,7 @@ Comprehensive and Customizable Charts: NG Prime provides a wide range of chart t
 Seamless Integration and Easy Implementation: PrimeNG charts are built on top of the popular Chart.js library, which means they are well-integrated into Angular applications. They come with straightforward Angular components, reducing the complexity of integrating charts into your project. This simplifies the process of adding advanced data visualization without needing extensive configuration.
 
 Responsive and Mobile-Friendly Design: PrimeNG charts are designed to be responsive out of the box, ensuring that they adapt well to different screen sizes and devices. This is particularly important for applications that need to provide a consistent user experience across desktop and mobile platforms, without requiring additional work for mobile optimization.
+
+## Scope Cuts
+The Add New User form is missing indicators of required fields and messages that inform the user of an invalid or missed required field. All fields are required in order to submit the formm and the submit button is disabled untill all fields have value. 
+Zipcode field accepts string when it should only be numbers, I didnt have time to change the input type to number instead of text
