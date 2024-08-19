@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";
+/* Importing Primeng css and light blue them css file. */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+.container-header {
+  color: #fff;
+  border-color: #fff;
+  background-color: #11246f;
+}
+
+.link {
+  color: #1f3ebd !important;
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #0679ec;
+  }
+}

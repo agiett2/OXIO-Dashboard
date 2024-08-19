@@ -1,0 +1,7 @@
+<div class="users-list-container">
+  <h1 class="text-center mb-3 p-5 container-header">Users List</h1>
+  <app-user-table [columns]="columns" [data]="data" (selectedUser)="selectUser($event)" ></app-user-table>
+  <div class="d-flex flex-column align-items-end">
+    <div class="btn btn-primary" (click)="openAddUserModal()">Add User</div>
+  </div>
+</div>

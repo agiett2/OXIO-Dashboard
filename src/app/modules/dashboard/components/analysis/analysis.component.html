@@ -1,0 +1,25 @@
+<div class="user-info-container mb-4">
+  <h1 class="text-center container-header p-5">Utility Usage Analysis</h1>
+</div>
+@if(selectedUser) {
+<div class="mt-2">
+  <p class="link" (click)="navToUsersList()">Back to User's List</p>
+  <div><span class="fw-bold">Name:</span> {{ selectedUser.name }}</div>
+  <div><span class="fw-bold">Username:</span> {{ selectedUser.username }}</div>
+  <div>
+    <span class="fw-bold">Address:</span> {{ selectedUser.address?.street }},
+    {{ selectedUser.address?.city }}, {{ selectedUser.address?.zipcode }}
+  </div>
+</div>
+
+<div>
+  <app-chart [data]="chartData"></app-chart>
+</div>
+} @else {
+<div>
+  <P class="link text-center" (click)="navToUsersList()"
+    >Please select a user to view</P
+  >
+</div>
+
+}

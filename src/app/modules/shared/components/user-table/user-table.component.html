@@ -1,0 +1,19 @@
+<table class="table table-responsive container">
+  <thead>
+    <tr >
+      @for(column of columns; track column) {
+      <th (click)="sortData(column)" class="header">{{ column }}</th>
+      }
+    </tr>
+  </thead>
+  <tbody>
+    @for(item of data; track item){
+    <tr>
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+      <td (click)="selectUser(item)" class="link">{{ item.username }}</td>
+      <td>{{ item.email }}</td>
+    </tr>
+    }
+  </tbody>
+</table>
