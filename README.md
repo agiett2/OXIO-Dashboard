@@ -49,5 +49,5 @@ Seamless Integration and Easy Implementation: PrimeNG charts are built on top of
 Responsive and Mobile-Friendly Design: PrimeNG charts are designed to be responsive out of the box, ensuring that they adapt well to different screen sizes and devices. This is particularly important for applications that need to provide a consistent user experience across desktop and mobile platforms, without requiring additional work for mobile optimization.
 
 ## Scope Cuts
-The Add New User form is missing indicators of required fields and messages that inform the user of an invalid or missed required field. All fields are required in order to submit the formm and the submit button is disabled untill all fields have value. 
-Zipcode field accepts string when it should only be numbers, I didnt have time to change the input type to number instead of text
+The Add New User form is missing indicators of required fields and messages that inform the user of an invalid or missed required field. All fields are required in order to submit the form and the submit button is disabled until all fields have value. 
+Zipcode field accepts string when it should only be numbers, I didn't have time to change the input type to number instead of text

@@ -81,46 +81,6 @@ export class AnalysisComponent implements OnInit {
           }
         }),
       ];
-
-      // user.utilities.forEach((u: IUtilityData) => {
-      //   labels.push(u.month);
-      //   labels = [...new Set(labels)];
-      //   switch (u.type) {
-      //     case 'gas':
-      //       gasData.push(u.usage);
-      //       datasets.push({
-      //         type: 'line',
-      //         label: 'Gas',
-      //         fill: false,
-      //         tension: 0.4,
-      //         borderColor: documentStyle.getPropertyValue('--orange-500'),
-      //         data: [...new Set(gasData)],
-      //       });
-      //       break;
-      //     case 'energy':
-      //       energyData.push(u.usage);
-      //       datasets.push({
-      //         type: 'bar',
-      //         label: 'Energy',
-      //         backgroundColor: documentStyle.getPropertyValue('--teal-400'),
-      //         borderColor: 'white',
-      //         borderWidth: 2,
-      //         data: [...new Set(energyData)],
-      //       });
-      //       break;
-      //     case 'electric':
-      //       electricData.push(u.usage);
-      //       datasets.push({
-      //         type: 'bar',
-      //         label: 'Electric',
-      //         backgroundColor: documentStyle.getPropertyValue('--blue-800'),
-      //         data: [...new Set(electricData)],
-      //       });
-      //       break;
-      //     default:
-      //       break;
-      //   }
-      // });
     }
 
     return {
